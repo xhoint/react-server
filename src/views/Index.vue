@@ -16,14 +16,13 @@
               <i class="el-icon-location"></i>
               <span>首页</span>
             </template>
-            
           </el-submenu>
-          <el-submenu >
+          <el-submenu  index='2'>
             <template slot="title">
               <i class="el-icon-location"></i>
               <span>用户权限</span>
             </template>
-            <el-menu-item index="/index">
+            <el-menu-item index="/index/getuser">
               <template slot="title">
                 <i class="el-icon-setting"></i>
                 <span>角色列表</span>
